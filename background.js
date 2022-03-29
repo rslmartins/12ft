@@ -15,7 +15,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
         if ((domain[1] !== "outline.") && (domain[1] !== "chr"))
         {
             // Redirect to the outline.com with GET request formed
-            chrome.tabs.update({url: 'http://outline.com/'+address});
+            chrome.tabs.update({url: 'http://12ft.io/'+address});
         }
     });
 
