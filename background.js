@@ -12,7 +12,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
         var reg = new RegExp ("^(?:https?:\/\/)?(?:w{3}\.)?([a-z\d\.-]+)\.(?:[a-z\.]{2,10})(?:[/\w\.-]*)*");
         var domain = reg.exec(address);
 
-        if ((domain[1] !== "outline.") && (domain[1] !== "chr"))
+        if ((domain[1] !== "12ft.") && (domain[1] !== "chr"))
         {
             // Redirect to the outline.com with GET request formed
             chrome.tabs.update({url: 'http://12ft.io/'+address});
